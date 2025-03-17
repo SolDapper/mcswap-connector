@@ -5,6 +5,7 @@ This module currently supports Solana wallet connections for Phantom, Solflare, 
 
 ![powered by solana](http://mcswap.xyz/gh/stacked-color.svg)
 
+
 # install
 ```javascript
 npm i mcswap-connector
@@ -44,3 +45,5 @@ style the hilight color of your connector
 ```javascript
 import "mcswap-connector/src/colors/green-connector.css";
 ```
+
+![powered by solana](https://repository-images.githubusercontent.com/950157346/f62f9fc6-4e8e-49a4-8992-f454334de865)
