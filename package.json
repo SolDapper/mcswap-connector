@@ -1,0 +1,25 @@
+{
+  "name": "mcswap-connector",
+  "version": "0.0.1",
+  "description": "A Solana Wallet Connection Module",
+  "main": "src/mcswap-connector.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SolDapper/mcswap-connector.git"
+  },
+  "keywords": [
+    "solana blockchain",
+    "wallet connector"
+  ],
+  "author": "@SolDapper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SolDapper/mcswap-connector/issues"
+  },
+  "homepage": "https://github.com/SolDapper/mcswap-connector#readme",
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "toastify-js": "^1.12.0"
+  }
+}
