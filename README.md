@@ -29,3 +29,14 @@ emitter.on('disconnected',async()=>{
 import mcswapConnector from "mcswap-connector";
 new mcswapConnector(["phantom","solflare","backpack"],emitter).init();
 ```
+
+## buttons
+add buttons with these classes 
+
+mcswap_connect_button / mcswap_disconnect_button
+
+your disconnect buttons will be hidden by default
+```html
+<button class="mcswap_connect_button">Connect</button>
+<button class="mcswap_disconnect_button">Disconnect</button>
+```
