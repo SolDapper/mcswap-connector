@@ -72,6 +72,7 @@ class mcswapConnector {
     // ********************************************
     const connector = '<div id="mcswap_connector"><div id="mcswap_cover"><div id="mcswap_message"></div></div><div id="mcswap_chooser"></div><input id="mcswap-account-change" value="" /></div>';
     $("body").append(connector);
+    console.log(this.wallets);
     for(let i=0;i<this.wallets.length;i++){
       const wallet = this.wallets[i];
       const ele = '<button class="mcswap_choice mcswap_wallet_choice" id="mcswap_'+wallet.id+'"><img src="'+wallet.icon+'" /><span>'+wallet.label+'</span></button>';
@@ -84,11 +85,8 @@ class mcswapConnector {
       let inapp = false;
       for(let i=0;i<this.wallets.length;i++){
         const wallet = this.wallets[i];
-        console.log("wallet: ", wallet.id);
         const agent = await this.agent();
-        console.log("agent: ", agent);
         const isinapp = await wallet.inapp(agent);
-        console.log("isinapp: ", isinapp);
         if(isinapp===true){
           inapp=wallet.id;
           i=(this.wallets.length-1);
