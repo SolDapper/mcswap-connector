@@ -1,9 +1,11 @@
 # mcswap-connector
 Solana Wallet Connection Module 
 
+This module currently supports Solana wallet connections for Phantom, Solflare, and Backpack wallets.
+
 ![powered by solana](http://mcswap.xyz/gh/stacked-color.svg)
 
-# Install
+# install
 ```javascript
 npm i mcswap-connector
 ```
