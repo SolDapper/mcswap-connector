@@ -31,12 +31,16 @@ new mcswapConnector(["phantom","solflare","backpack"],emitter).init();
 ```
 
 ## buttons
-add buttons with these classes 
+add mcswap classes to your buttons
 
-mcswap_connect_button / mcswap_disconnect_button
-
-your disconnect buttons will be hidden by default
+disconnect buttons will be hidden by default
 ```html
 <button class="mcswap_connect_button">Connect</button>
 <button class="mcswap_disconnect_button">Disconnect</button>
+```
+
+## style
+style the hilight color of your connector
+```javascript
+import "mcswap-connector/src/colors/green-connector.css";
 ```
