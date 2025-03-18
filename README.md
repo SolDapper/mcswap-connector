@@ -21,10 +21,10 @@ new mcswapConnector(["phantom","solflare","backpack"]).init();
 ```javascript
 import EventEmitter from 'events';
 const emitter = new EventEmitter();
-emitter.on('mcswap-connected',async()=>{
+emitter.on('mcswap_-_connected',async()=>{
   // do things after connection
 });
-emitter.on('mcswap-disconnected',async()=>{
+emitter.on('mcswap_disconnected',async()=>{
   // do things after disconnection
 });
 import mcswapConnector from "mcswap-connector";
