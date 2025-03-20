@@ -1,11 +1,11 @@
 # Security Policy
 
 <a name="reporting"></a>
-## Reporting security problems in the McSwap Connector
+## Reporting Security )roblems
 
 **DO NOT CREATE A GITHUB ISSUE** to report a security problem.
 
-Instead please contact the maintainers at one of the following locations:
+Please contact the maintainers:
 
 * Email: nathan@airadlabs.com
 * X: @SolDapper
