@@ -71,11 +71,6 @@
 #mcswap_chooser button#mcswap_cancel{
   margin-bottom: 18px;
 }
-#mcswap_chooser button:hover{
-  -webkit-box-shadow: 0px 0px 10px 3px #fff;
-  -moz-box-shadow: 0px 0px 10px 3px #fff;
-  box-shadow: 0px 0px 10px 3px #fff;
-}
 #mcswap_chooser button.mcswap_choice img{
   display: block;
   position: absolute;
