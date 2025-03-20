@@ -1,6 +1,6 @@
 {
   "name": "mcswap-connector",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Solana Wallet Connection Module",
   "main": "src/mcswap-connector.js",
   "type": "module",
@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/SolDapper/mcswap-connector/issues"
   },
-  "homepage": "https://github.com/SolDapper/mcswap-connector#readme",
+  "homepage": "https://mcswap.xyz",
   "dependencies": {
     "jquery": "^3.7.1",
     "toastify-js": "^1.12.0"
