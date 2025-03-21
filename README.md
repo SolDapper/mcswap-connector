@@ -24,7 +24,7 @@ const provider = window.mcswap;
 ```
 
 ## with emitter
-Make sure you've installed the "event" npm module in your app.
+Make sure you've installed the "events" npm module in your app.
 ```html
 npm i events
 ```
