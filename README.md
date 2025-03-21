@@ -17,7 +17,17 @@ import mcswapConnector from "mcswap-connector";
 new mcswapConnector(["phantom","solflare","backpack"]).init();
 ```
 
+## provider 
+You can access the connected wallet provider object like so:
+```javascript
+const provider = window.mcswap;
+```
+
 ## with emitter
+Make sure you've installed the "event" npm module in your app.
+```html
+npm i events
+```
 ```javascript
 import EventEmitter from 'events';
 const emitter = new EventEmitter();
@@ -32,16 +42,16 @@ new mcswapConnector(["phantom","solflare","backpack"],emitter).init();
 ```
 
 ## buttons
-add mcswap classes to your buttons
+Add mcswap classes to your buttons
 
-disconnect buttons will be hidden by default
+Disconnect buttons will be hidden by default
 ```html
 <button class="mcswap_connect_button">Connect</button>
 <button class="mcswap_disconnect_button">Disconnect</button>
 ```
 
 ## style
-style the hilight color of your connector
+Style the hilight color of your connector
 ```javascript
 import "mcswap-connector/src/colors/green-connector.css";
 ```
