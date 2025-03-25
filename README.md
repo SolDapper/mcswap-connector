@@ -3,7 +3,7 @@ Solana Wallet Connection Module
 
 This module currently supports Solana wallet connections for Phantom, Solflare, and Backpack wallets. More wallets and color styles coming soon.
 
-![powered by solana](http://mcswap.xyz/gh/stacked-color.svg)
+![powered by solana](https://cd6na2lma222gpigviqcpr5n7uewgxd7uhockofelflsuaop7oiq.arweave.net/EPzQaWwGtaM9BqogJ8et_QljXH-h3CU4pFlXKgHP-5E)
 
 
 # install
