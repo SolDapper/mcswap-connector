@@ -143,6 +143,11 @@
 .mcswap_disconnect_button{
   display: none;
 }
+@media only screen and (max-width: 400px) {
+  #mcswap_chooser button {
+    padding: 10px 10px 11px 10px;
+  }
+}
 @media only screen and (max-width: 310px) {
   #mcswap_chooser{
     width: calc(100% - 20px);

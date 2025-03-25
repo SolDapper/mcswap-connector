@@ -1,0 +1,21 @@
+#mcswap_chooser button {
+    -webkit-box-shadow: 0px 0px 3px 0px #ff3da5e6;
+    -moz-box-shadow: 0px 0px 3px 0px #ff3da5e6;
+    box-shadow: 0px 0px 3px 0px #ff3da5e6;
+}
+#mcswap_chooser button:hover {
+    box-shadow: 0 0 10px 3px #ff3da5e6;
+}
+#mcswap_chooser button:disabled:hover {
+    text-shadow: none;
+    box-shadow: 0 0 3px #ff3da5e6;
+}
+.mcswap_connect_button, .mcswap_disconnect_button {
+    background: #ff3da5e6;
+}
+.mcswap_connect_button:hover, .mcswap_disconnect_button:hover{
+    background: #fff;
+    color: #111;
+    text-shadow: 0 0 20px #ff3da5e6;
+    box-shadow: 0 0 10px 3px #ff3da5e6;
+}
