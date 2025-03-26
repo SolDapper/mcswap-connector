@@ -1,6 +1,6 @@
 {
   "name": "mcswap-connector",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "Solana Wallet Connection Module",
   "main": "src/mcswap-connector.js",
   "type": "module",
