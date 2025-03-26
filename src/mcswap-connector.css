@@ -106,9 +106,9 @@
 #mcswap_chooser button#mcswap_cancel span {color: #fff;transition: 0.3s;margin-top:0px;margin-bottom:1px;}
 #mcswap_chooser button#mcswap_cancel:hover span{color: #fff;text-shadow: 0 0 20px #fff;}
 #mcswap_chooser button:disabled:hover {
-  -webkit-box-shadow: 0px 0px 3px 0px #154ab3;
-  -moz-box-shadow: 0px 0px 3px 0px #154ab3;
-  box-shadow: 0px 0px 3px 0px #154ab3;
+  -webkit-box-shadow: 0px 0px 3px 0px #fff;
+  -moz-box-shadow: 0px 0px 3px 0px #fff;
+  box-shadow: 0px 0px 3px 0px #fff;
   text-shadow: none;
 }
 #mcswap_chooser button:disabled:hover span{
@@ -117,7 +117,7 @@
 .mcswap_connect_button, .mcswap_disconnect_button{
   cursor: pointer;
   color: #fff;
-  background: #154ab3;
+  background: #0e0e0e;
   border: 0;
   border-radius: 20px;
   outline: none;
@@ -133,8 +133,8 @@
 .mcswap_connect_button:hover, .mcswap_disconnect_button:hover{
   background: #fff;
   color: #000;
-  text-shadow: 0 0 20px #154ab3;
-  box-shadow: 0 0 10px 3px #154ab3;
+  text-shadow: 0 0 20px #fff;
+  box-shadow: 0 0 10px 3px #fff;
 }
 .mcswap_connect_button:disabled, .mcswap_disconnect_button:disabled{
   opacity: 0.25;
