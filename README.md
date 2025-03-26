@@ -1,7 +1,7 @@
 # mcswap-connector
 Solana Wallet Connection Module 
 
-This module currently supports Solana wallet connections for Phantom, Solflare, and Backpack wallets. More wallets soon.
+This module currently supports Solana wallet connections for Phantom, Solflare, and Backpack wallets.
 
 ![mcswap connector](https://repository-images.githubusercontent.com/950157346/52497295-4d7a-49bd-8d18-81dfdf0a9881)
 
