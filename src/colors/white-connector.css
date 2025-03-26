@@ -3,7 +3,7 @@
     -moz-box-shadow: 0px 0px 3px 0px #fff;
     box-shadow: 0px 0px 3px 0px #fff;
 }
-#mcswap_chooser button:hover {
+#mcswap_chooser button.mcswap_choice {
     box-shadow: 0 0 10px 3px #fff;
 }
 #mcswap_chooser button:disabled:hover {
