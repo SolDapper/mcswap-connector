@@ -6,7 +6,7 @@
 #mcswap_chooser button.mcswap_choice:hover {
     box-shadow: 0 0 10px 3px #fff;
 }
-#mcswap_chooser button:disabled:hover {
+#mcswap_chooser button.mcswap_choice:disabled:hover {
     text-shadow: none;
     box-shadow: 0 0 3px #fff;
 }
