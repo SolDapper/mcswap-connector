@@ -97,6 +97,7 @@
   height: 23px;
   text-shadow: 0 0 5px #fff;
 }
+
 #mcswap_chooser button#mcswap_backpack span {color: #fff;transition: 0.3s;}
 #mcswap_chooser button#mcswap_backpack:hover span{color: #fff;text-shadow: 0 0 20px #fff;}
 #mcswap_chooser button#mcswap_solflare span {color: #fff;transition: 0.3s;}
@@ -105,14 +106,21 @@
 #mcswap_chooser button#mcswap_phantom:hover span{color: #fff;text-shadow: 0 0 20px #fff;}
 #mcswap_chooser button#mcswap_cancel span {color: #fff;transition: 0.3s;margin-top:0px;margin-bottom:1px;}
 #mcswap_chooser button#mcswap_cancel:hover span{color: #fff;text-shadow: 0 0 20px #fff;}
-#mcswap_chooser button:disabled:hover {
+
+#mcswap_chooser button#mcswap_backpack:disabled:hover,
+#mcswap_chooser button#mcswap_solflare:disabled:hover,
+#mcswap_chooser button#mcswap_phantom:disabled:hover{
   -webkit-box-shadow: 0px 0px 3px 0px #fff;
   -moz-box-shadow: 0px 0px 3px 0px #fff;
   box-shadow: 0px 0px 3px 0px #fff;
 }
-#mcswap_chooser button:disabled span:hover{
-  text-shadow: 0 0 3px #fff;
+
+#mcswap_chooser button#mcswap_backpack:disabled:hover span,
+#mcswap_chooser button#mcswap_solflare:disabled:hover span,
+#mcswap_chooser button#mcswap_phantom:disabled:hover span{
+  text-shadow: 0 0 5px #fff;
 }
+
 .mcswap_connect_button, .mcswap_disconnect_button{
   cursor: pointer;
   color: #fff;
