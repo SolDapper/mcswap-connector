@@ -10,12 +10,3 @@
     text-shadow: none;
     box-shadow: 0 0 3px #558010;
 }
-.mcswap_connect_button, .mcswap_disconnect_button {
-    background: #558010;
-}
-.mcswap_connect_button:hover, .mcswap_disconnect_button:hover{
-    background: #fff;
-    color: #111;
-    text-shadow: 0 0 20px #558010;
-    box-shadow: 0 0 10px 3px #558010;
-}
