@@ -55,5 +55,11 @@ Disconnect buttons will be hidden by default
 ## style
 Style the hilight color of your connector
 ```javascript
+import "mcswap-connector/src/colors/blue-connector.css";
 import "mcswap-connector/src/colors/green-connector.css";
+import "mcswap-connector/src/colors/orange-connector.css";
+import "mcswap-connector/src/colors/pink-connector.css";
+import "mcswap-connector/src/colors/purple-connector.css";
+import "mcswap-connector/src/colors/red-connector.css";
+import "mcswap-connector/src/colors/yellow-connector.css";
 ```
