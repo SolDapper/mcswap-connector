@@ -1,6 +1,4 @@
 import $ from "jquery";
-import Toastify from 'toastify-js';
-import "toastify-js/src/toastify.css";
 import "./mcswap-connector.css";
 class mcswapConnector {
   constructor(_wallets_=[],emitter=false){
@@ -40,7 +38,7 @@ class mcswapConnector {
     }
   }
   async connected(){
-      this.toast("Connected!", 2000);
+      // this.toast("Connected!", 2000);
       $(".mcswap_connect_button").hide();
       $(".mcswap_disconnect_button").fadeIn(300);
       if(this.emitter!=false){this.emitter.emit('mcswap_connected');}
@@ -54,7 +52,9 @@ class mcswapConnector {
         this.connect(change);
       }
       else{
-        if(change==false){this.toast("Disconnected!", 2000);}
+        if(change==false){
+          // this.toast("Disconnected!", 2000);
+        }
         this.disconnected();
       }
     }
@@ -174,35 +174,35 @@ class mcswapConnector {
       },400);
     }
   }
-  async toast(message,wait,error=false){
-    let color = "#111";
-    let background = "#fff";
-    if(error===true){
-        color = "#111";
-        background = "#fff"
-    }
-    else{
-        color = "#111";
-        background = "#fff";
-    }
-    Toastify({
-        text: message,
-        duration: wait,
-        newWindow: false,
-        close: false,
-        gravity: "bottom", // `top` or `bottom`
-        position: "left", // `left`, `center` or `right`
-        stopOnFocus: false, // Prevents dismissing of toast on hover
-        style: {
-            "font-weight": "bold",
-            "font-family": "Ubuntu",
-            "border-radius": "10px",
-            "color": color,
-            "background": background,
-        },
-        onClick: function(){} // Callback after click
-    }).showToast();
-  }
+  // async toast(message,wait,error=false){
+  //   let color = "#111";
+  //   let background = "#fff";
+  //   if(error===true){
+  //       color = "#111";
+  //       background = "#fff"
+  //   }
+  //   else{
+  //       color = "#111";
+  //       background = "#fff";
+  //   }
+  //   Toastify({
+  //       text: message,
+  //       duration: wait,
+  //       newWindow: false,
+  //       close: false,
+  //       gravity: "bottom", // `top` or `bottom`
+  //       position: "left", // `left`, `center` or `right`
+  //       stopOnFocus: false, // Prevents dismissing of toast on hover
+  //       style: {
+  //           "font-weight": "bold",
+  //           "font-family": "Ubuntu",
+  //           "border-radius": "10px",
+  //           "color": color,
+  //           "background": background,
+  //       },
+  //       onClick: function(){} // Callback after click
+  //   }).showToast();
+  // }
   async provider(){
     if(window.mcswap){
       return window.mcswap;
